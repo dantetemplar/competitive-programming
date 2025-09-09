@@ -1,0 +1,33 @@
+{
+  "name": "A. Гипотеза Коллатца",
+  "group": "Codeforces - Codeforces Round 1047 (Div. 3)",
+  "url": "https://codeforces.com/contest/2137/problem/A",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 1000,
+  "tests": [
+    {
+      "id": 1757377140882,
+      "input": "3\n1 4\n1 5\n5 4\n",
+      "output": "8\n10\n128\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "AGipotezaKollattsa"
+    }
+  },
+  "batch": {
+    "id": "5e2e71b9-1e34-420f-8319-48631f556222",
+    "size": 7
+  },
+  "srcPath": "A_Гипотеза_Коллатца.py"
+}

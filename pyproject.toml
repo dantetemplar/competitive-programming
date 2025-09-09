@@ -1,0 +1,7 @@
+[project]
+name = "competitive-programming"
+version = "0.1.0"
+description = "My competitive programming setup and solutions"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
