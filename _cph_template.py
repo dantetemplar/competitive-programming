@@ -16,21 +16,15 @@ def solve(n: int, A: list[int]) -> int:
 def main():
     import sys
 
-    def input():
-        return sys.stdin.readline().strip()
-
-    def print(s, end="\n"):
-        return sys.stdout.write(str(s) + end)
+    input = lambda: sys.stdin.readline().rstrip()  # noqa
+    print = lambda s, end="\n": sys.stdout.write(str(s) + end)  # noqa
 
     t = int(input())
     for _ in range(t):
         n = int(input())
         A = list(map(int, input().split()))
         res = solve(n, A)
-        if isinstance(res, list):  # if list, join with spaces so [1, 2, 3] -> "1 2 3"
-            print(" ".join(map(str, res)))
-        else:
-            print(res)
+        print(res)
 
 
 if __name__ == "__main__":
