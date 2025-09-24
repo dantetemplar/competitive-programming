@@ -1,0 +1,33 @@
+{
+  "name": "G1. Секретное единственное (версия 1)",
+  "group": "Codeforces - Codeforces Round 1053 (Div. 2)",
+  "url": "https://codeforces.com/contest/2151/problem/G1",
+  "interactive": true,
+  "memoryLimit": 256,
+  "timeLimit": 5000,
+  "tests": [
+    {
+      "input": "2\n2\n\n0\n\n3\n\n1\n\n1\n\n1\n\n1\n",
+      "output": "\n\n? 1 2 1 2\n\n! 1\n\n? 1 2 1 4\n\n? 2 2 1 4\n\n? 2 1 2\n\n? 1 1 5\n\n! 3\n",
+      "id": 1758713726343
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "G1SekretnoeYedinstvennoeVersiya1"
+    }
+  },
+  "batch": {
+    "id": "69644c67-27cd-4457-a650-358292cea9a7",
+    "size": 8
+  },
+  "srcPath": "G_1_Секретное_единственное_версия_1.py"
+}

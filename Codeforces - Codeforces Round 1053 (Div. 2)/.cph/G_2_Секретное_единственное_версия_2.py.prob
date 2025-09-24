@@ -1,0 +1,33 @@
+{
+  "name": "G2. Секретное единственное (версия 2)",
+  "group": "Codeforces - Codeforces Round 1053 (Div. 2)",
+  "url": "https://codeforces.com/contest/2151/problem/G2",
+  "interactive": true,
+  "memoryLimit": 256,
+  "timeLimit": 5000,
+  "tests": [
+    {
+      "input": "1\n300\n\n0\n",
+      "output": "\n\n? 187 1 1\n\n! 187\n",
+      "id": 1758713726526
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "G2SekretnoeYedinstvennoeVersiya2"
+    }
+  },
+  "batch": {
+    "id": "69644c67-27cd-4457-a650-358292cea9a7",
+    "size": 8
+  },
+  "srcPath": "G_2_Секретное_единственное_версия_2.py"
+}

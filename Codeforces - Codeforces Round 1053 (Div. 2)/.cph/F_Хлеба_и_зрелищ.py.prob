@@ -1,0 +1,33 @@
+{
+  "name": "F. Хлеба и зрелищ",
+  "group": "Codeforces - Codeforces Round 1053 (Div. 2)",
+  "url": "https://codeforces.com/contest/2151/problem/F",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 2000,
+  "tests": [
+    {
+      "input": "7\n1\n1\n2\n5 10\n3\n1 1 1\n4\n1 1 1 1\n4\n10 2 9 7\n5\n1000000000 1000000000 1000000000 1000000000 1000000000\n8\n100 2 34 59 34 27 5 6\n",
+      "output": "1\n45\n24\n72\n480\n333572930\n69365\n",
+      "id": 1758713726189
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "FKhlebaIZrelishch"
+    }
+  },
+  "batch": {
+    "id": "69644c67-27cd-4457-a650-358292cea9a7",
+    "size": 8
+  },
+  "srcPath": "F_Хлеба_и_зрелищ.py"
+}
