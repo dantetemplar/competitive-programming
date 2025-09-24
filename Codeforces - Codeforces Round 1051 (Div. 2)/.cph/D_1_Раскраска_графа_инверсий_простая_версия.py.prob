@@ -1,0 +1,33 @@
+{
+  "name": "D1. Раскраска графа инверсий (простая версия)",
+  "group": "Codeforces - Codeforces Round 1051 (Div. 2)",
+  "url": "https://codeforces.com/contest/2143/problem/D1",
+  "interactive": false,
+  "memoryLimit": 512,
+  "timeLimit": 3000,
+  "tests": [
+    {
+      "id": 1758119776932,
+      "input": "4\n4\n4 2 3 1\n7\n7 6 1 2 3 3 2\n5\n1 1 1 1 1\n11\n7 2 1 9 7 3 4 1 3 5 3\n",
+      "output": "13\n73\n32\n619\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "D1RaskraskaGrafaInversiiProstayaVersiya"
+    }
+  },
+  "batch": {
+    "id": "f101bde2-005d-474f-a61d-d6ae2413f1fe",
+    "size": 7
+  },
+  "srcPath": "D_1_Раскраска_графа_инверсий_простая_версия.py"
+}

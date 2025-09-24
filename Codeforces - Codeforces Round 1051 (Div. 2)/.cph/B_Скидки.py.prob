@@ -1,0 +1,33 @@
+{
+  "name": "B. Скидки",
+  "group": "Codeforces - Codeforces Round 1051 (Div. 2)",
+  "url": "https://codeforces.com/contest/2143/problem/B",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 1000,
+  "tests": [
+    {
+      "id": 1758119776826,
+      "input": "5\n5 3\n18 3 7 2 9\n3 1 1\n6 1\n1 2 6 3 3 4\n5\n2 3\n1 1\n2 2 2\n1 1\n10\n1\n5 3\n99 99 999 999 123\n2 1 4\n",
+      "output": "10\n17\n1\n0\n1197\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "BSkidki"
+    }
+  },
+  "batch": {
+    "id": "f101bde2-005d-474f-a61d-d6ae2413f1fe",
+    "size": 7
+  },
+  "srcPath": "B_Скидки.py"
+}
