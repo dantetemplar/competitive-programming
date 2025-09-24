@@ -1,0 +1,33 @@
+{
+  "name": "E1. Прайм Гейминг (простая версия)",
+  "group": "Codeforces - Codeforces Round 1049 (Div. 2)",
+  "url": "https://codeforces.com/contest/2140/problem/E1",
+  "interactive": false,
+  "memoryLimit": 512,
+  "timeLimit": 3000,
+  "tests": [
+    {
+      "input": "3\n2 2\n1\n1\n3 1\n2\n1 3\n3 2\n2\n1 2\n",
+      "output": "6\n1\n11\n",
+      "id": 1757428519487
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "E1PraimGeimingProstayaVersiya"
+    }
+  },
+  "batch": {
+    "id": "df197bcc-616d-45b0-a850-2a8d7638b0a7",
+    "size": 7
+  },
+  "srcPath": "E_1_Прайм_Гейминг_простая_версия.py"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "A. Сортировка сдвигом",
+  "group": "Codeforces - Codeforces Round 1049 (Div. 2)",
+  "url": "https://codeforces.com/contest/2140/problem/A",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 1000,
+  "tests": [
+    {
+      "id": 1757428519226,
+      "input": "4\n3\n001\n4\n0110\n6\n110100\n6\n101011\n",
+      "output": "0\n1\n2\n1\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "ASortirovkaSdvigom"
+    }
+  },
+  "batch": {
+    "id": "df197bcc-616d-45b0-a850-2a8d7638b0a7",
+    "size": 7
+  },
+  "srcPath": "A_Сортировка_сдвигом.py"
+}
