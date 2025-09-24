@@ -1,0 +1,33 @@
+{
+  "name": "E. Разделение",
+  "group": "Codeforces - Codeforces Round 1050 (Div. 4)",
+  "url": "https://codeforces.com/contest/2148/problem/E",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 2000,
+  "tests": [
+    {
+      "id": 1757774148849,
+      "input": "4\n3 2\n1 1 1\n4 2\n1 2 1 2\n8 2\n3 3 3 3 2 2 2 2\n6 3\n1 1 1 1 1 1\n",
+      "output": "0\n7\n18\n11\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "ERazdelenie"
+    }
+  },
+  "batch": {
+    "id": "50e4c961-7769-4dab-b90b-7b60b33fad64",
+    "size": 7
+  },
+  "srcPath": "E_Разделение.py"
+}

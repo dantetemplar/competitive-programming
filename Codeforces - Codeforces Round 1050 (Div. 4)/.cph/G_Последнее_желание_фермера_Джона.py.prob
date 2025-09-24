@@ -1,0 +1,33 @@
+{
+  "name": "G. Последнее желание фермера Джона",
+  "group": "Codeforces - Codeforces Round 1050 (Div. 4)",
+  "url": "https://codeforces.com/contest/2148/problem/G",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 3000,
+  "tests": [
+    {
+      "id": 1757774149029,
+      "input": "3\n8\n2 4 3 6 5 7 8 6\n6\n6 6 6 6 6 6\n9\n8 4 2 6 3 9 5 7 8\n",
+      "output": "0 1 2 3 3 3 4 5\n0 0 0 0 0 0\n0 1 2 2 4 4 4 4 5\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "GPosledneeZhelanieFermeraDzhona"
+    }
+  },
+  "batch": {
+    "id": "50e4c961-7769-4dab-b90b-7b60b33fad64",
+    "size": 7
+  },
+  "srcPath": "G_Последнее_желание_фермера_Джона.py"
+}

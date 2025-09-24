@@ -1,0 +1,33 @@
+{
+  "name": "D. Уничтожение полей одуванчиков",
+  "group": "Codeforces - Codeforces Round 1050 (Div. 4)",
+  "url": "https://codeforces.com/contest/2148/problem/D",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 2000,
+  "tests": [
+    {
+      "id": 1757774148797,
+      "input": "3\n3\n2 4 6\n4\n4 2 1 6\n4\n1000000000 999999999 1000000000 999999999\n",
+      "output": "0\n13\n2999999999\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "DUnichtozheniePoleiOduvanchikov"
+    }
+  },
+  "batch": {
+    "id": "50e4c961-7769-4dab-b90b-7b60b33fad64",
+    "size": 7
+  },
+  "srcPath": "D_Уничтожение_полей_одуванчиков.py"
+}
