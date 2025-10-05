@@ -1,0 +1,33 @@
+{
+  "name": "E. Мимо и Юю",
+  "group": "Codeforces - Codeforces Round 1056 (Div. 2)",
+  "url": "https://codeforces.com/contest/2155/problem/E",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 2000,
+  "tests": [
+    {
+      "id": 1759682118981,
+      "input": "7\n6 4 3\n2 3\n4 2\n6 4\n1 1 1\n1 1\n3 2 4\n1 1\n1 2\n2 2\n3 2\n20 4 3\n10 4\n20 2\n1 3\n1 5 1\n1 3\n2 3 5\n2 1\n1 2\n1 2\n2 3\n1 3\n6 4 11\n6 3\n5 3\n4 3\n3 3\n2 3\n2 3\n2 2\n3 2\n4 2\n4 2\n4 1\n",
+      "output": "Mimo\nYuyu\nMimo\nMimo\nYuyu\nYuyu\nYuyu\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "EMimoIYuyu"
+    }
+  },
+  "batch": {
+    "id": "1c42565b-1765-47f0-8514-ef5dee557610",
+    "size": 6
+  },
+  "srcPath": "E_Мимо_и_Юю.py"
+}

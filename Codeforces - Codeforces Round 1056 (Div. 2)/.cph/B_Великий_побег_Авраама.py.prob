@@ -1,0 +1,38 @@
+{
+  "name": "B. Великий побег Авраама",
+  "group": "Codeforces - Codeforces Round 1056 (Div. 2)",
+  "url": "https://codeforces.com/contest/2155/problem/B",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 1500,
+  "tests": [
+    {
+      "id": 1759682118823,
+      "input": "3\n2 4\n3 5\n2 3\n3 2\n",
+      "output": "YES\nDD\nDD\nYES\nRRL\nUDD\nDDD\nNO\n"
+    },
+    {
+      "id": 1759683627965,
+      "input": "1\n3 2\n",
+      "output": "YES\nRRL\nRRL\nUDD\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "BVelikiiPobegAvraama"
+    }
+  },
+  "batch": {
+    "id": "1c42565b-1765-47f0-8514-ef5dee557610",
+    "size": 6
+  },
+  "srcPath": "B_Великий_побег_Авраама.py"
+}
