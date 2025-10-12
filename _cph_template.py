@@ -1,11 +1,4 @@
 # ruff: noqa: F401
-import bisect
-import heapq
-import itertools
-import math
-from collections import Counter, defaultdict
-from typing import Any
-
 
 # ----------------  Solution   ---------------- #
 def solve(n: int, A: list[int]) -> int:
