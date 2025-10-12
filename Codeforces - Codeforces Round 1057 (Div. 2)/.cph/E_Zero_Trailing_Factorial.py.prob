@@ -1,0 +1,33 @@
+{
+  "name": "E. Zero Trailing Factorial",
+  "group": "Codeforces - Codeforces Round 1057 (Div. 2)",
+  "url": "https://codeforces.com/contest/2153/problem/E",
+  "interactive": false,
+  "memoryLimit": 512,
+  "timeLimit": 3000,
+  "tests": [
+    {
+      "input": "5\n3 5\n6 7\n6 10\n36 68\n10000000 10000000\n",
+      "output": "0\n1\n0\n13\n279933\n",
+      "id": 1760279328138
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "EZeroTrailingFactorial"
+    }
+  },
+  "batch": {
+    "id": "b1b4b3fb-aa45-4d84-bb59-8d76a5897262",
+    "size": 1
+  },
+  "srcPath": "E_Zero_Trailing_Factorial.py"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "D. Не одинок",
+  "group": "Codeforces - Codeforces Round 1057 (Div. 2)",
+  "url": "https://codeforces.com/contest/2153/problem/D",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 2000,
+  "tests": [
+    {
+      "id": 1760111004037,
+      "input": "4\n5\n1 1 1 1 1\n4\n2 100 99 3\n5\n2 2 5 9 5\n6\n1 1 1 2 1 2\n",
+      "output": "0\n2\n4\n1\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "DNeOdinok"
+    }
+  },
+  "batch": {
+    "id": "01a96834-a1e1-46bd-95c5-4f11297436ee",
+    "size": 1
+  },
+  "srcPath": "D_Не_одинок.py"
+}
