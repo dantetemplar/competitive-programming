@@ -1,0 +1,6 @@
+{
+    "cph.general.defaultLanguage": "python",
+    "cph.general.defaultLanguageTemplateFileLocation": "/home/dante/PycharmProjects/competitive-programming/_cph_template.py",
+    "cph.general.saveLocation": "${group}/",
+    "cph.general.menuChoices": "python"
+}
