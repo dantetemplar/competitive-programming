@@ -1,0 +1,38 @@
+{
+  "name": "A. Конфеты для племянников",
+  "group": "Codeforces - Educational Codeforces Round 183 (Rated for Div. 2)",
+  "url": "https://codeforces.com/contest/2145/problem/A",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 1000,
+  "tests": [
+    {
+      "id": 1759761336831,
+      "input": "2\n7\n24\n",
+      "output": "2\n0\n"
+    },
+    {
+      "id": 1759761435079,
+      "input": "1\n1",
+      "output": ""
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "AKonfetiDlyaPlemyannikov"
+    }
+  },
+  "batch": {
+    "id": "0e590897-6ea2-4047-be5c-ecbaea6dfb57",
+    "size": 1
+  },
+  "srcPath": "A_Конфеты_для_племянников.py"
+}

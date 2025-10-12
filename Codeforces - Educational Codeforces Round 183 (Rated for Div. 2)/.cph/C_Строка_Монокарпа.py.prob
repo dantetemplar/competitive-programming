@@ -1,0 +1,33 @@
+{
+  "name": "C. Строка Монокарпа",
+  "group": "Codeforces - Educational Codeforces Round 183 (Rated for Div. 2)",
+  "url": "https://codeforces.com/contest/2145/problem/C",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 2000,
+  "tests": [
+    {
+      "id": 1759764536265,
+      "input": "5\n5\nbbbab\n6\nbbaaba\n4\naaaa\n12\naabbaaabbaab\n5\naabaa\n",
+      "output": "3\n0\n-1\n2\n-1\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "CStrokaMonokarpa"
+    }
+  },
+  "batch": {
+    "id": "f7e84836-9492-4ec2-a799-de4cee6c4cba",
+    "size": 1
+  },
+  "srcPath": "C_Строка_Монокарпа.py"
+}

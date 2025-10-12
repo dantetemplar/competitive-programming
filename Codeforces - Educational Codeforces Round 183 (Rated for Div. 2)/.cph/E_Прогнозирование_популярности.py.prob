@@ -1,0 +1,33 @@
+{
+  "name": "E. Прогнозирование популярности",
+  "group": "Codeforces - Educational Codeforces Round 183 (Rated for Div. 2)",
+  "url": "https://codeforces.com/contest/2145/problem/E",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 3000,
+  "tests": [
+    {
+      "input": "20 25\n4\n1 22 1 30\n1 22 50 30\n5\n3 1 25\n2 23 22\n4 10 27\n1 21 21\n3 20 26\n",
+      "output": "3\n2\n4\n4\n0\n",
+      "id": 1759766608634
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "EPrognozirovaniePopulyarnosti"
+    }
+  },
+  "batch": {
+    "id": "ba4a0cbf-745e-4125-8c0e-b196afb43a16",
+    "size": 1
+  },
+  "srcPath": "E_Прогнозирование_популярности.py"
+}

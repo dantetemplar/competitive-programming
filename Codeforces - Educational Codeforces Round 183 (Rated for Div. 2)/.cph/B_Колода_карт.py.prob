@@ -1,0 +1,33 @@
+{
+  "name": "B. Колода карт",
+  "group": "Codeforces - Educational Codeforces Round 183 (Rated for Div. 2)",
+  "url": "https://codeforces.com/contest/2145/problem/B",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 2000,
+  "tests": [
+    {
+      "id": 1759761462098,
+      "input": "4\n4 2\n01\n3 2\n22\n1 1\n2\n7 5\n01201\n",
+      "output": "-++-\n???\n-\n--?+?--\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "BKolodaKart"
+    }
+  },
+  "batch": {
+    "id": "e90447ee-fefe-47ef-a1ff-b6c56c2b715c",
+    "size": 1
+  },
+  "srcPath": "B_Колода_карт.py"
+}
