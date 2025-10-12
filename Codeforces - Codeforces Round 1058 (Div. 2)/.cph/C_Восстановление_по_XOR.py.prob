@@ -1,0 +1,33 @@
+{
+  "name": "C. Восстановление по XOR",
+  "group": "Codeforces - Codeforces Round 1058 (Div. 2)",
+  "url": "https://codeforces.com/contest/2160/problem/C",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 2000,
+  "tests": [
+    {
+      "input": "6\n0\n3\n6\n8\n10\n11\n",
+      "output": "YES\nYES\nYES\nNO\nYES\nNO\n",
+      "id": 1760283254227
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "CVosstanovleniePoXOR"
+    }
+  },
+  "batch": {
+    "id": "c55f9322-0a54-4670-9c47-743c768a2cb3",
+    "size": 1
+  },
+  "srcPath": "C_Восстановление_по_XOR.py"
+}

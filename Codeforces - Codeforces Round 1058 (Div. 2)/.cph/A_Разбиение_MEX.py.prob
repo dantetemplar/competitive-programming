@@ -1,0 +1,38 @@
+{
+  "name": "A. Разбиение MEX",
+  "group": "Codeforces - Codeforces Round 1058 (Div. 2)",
+  "url": "https://codeforces.com/contest/2160/problem/A?locale=ru",
+  "interactive": false,
+  "memoryLimit": 256,
+  "timeLimit": 1000,
+  "tests": [
+    {
+      "input": "2\n3\n0 0 0\n2\n1 2\n",
+      "output": "1\n0\n",
+      "id": 1760279873551
+    },
+    {
+      "id": 1760280143521,
+      "input": "1\n4\n1 2 3 3\n",
+      "output": "0\n"
+    }
+  ],
+  "testType": "single",
+  "input": {
+    "type": "stdin"
+  },
+  "output": {
+    "type": "stdout"
+  },
+  "languages": {
+    "java": {
+      "mainClass": "Main",
+      "taskClass": "ARazbienieMEX"
+    }
+  },
+  "batch": {
+    "id": "3a0f9b5d-2ecb-4356-b687-246586893d9d",
+    "size": 1
+  },
+  "srcPath": "A_Разбиение_MEX.py"
+}
