@@ -2,7 +2,8 @@ import sys
 
 
 def step(indices: list[int] | set[int]) -> int:
-    sys.stdout.write(f"? {len(indices)} {' '.join(map(str, indices))}\n")
+    one_indexed = [i + 1 for i in indices]
+    sys.stdout.write(f"? {len(one_indexed)} {' '.join(map(str, one_indexed))}\n")
     sys.stdout.flush()
     s = sys.stdin.readline().strip()
     return int(s)
@@ -15,30 +16,28 @@ def answer(A: list[int]) -> None:
 
 def solve(n: int):
     m = 2 * n
-    B = {1}
-    ans = [0] * (m + 1) # 1-indexed
+    ans = [0] * m
 
-    for x in range(2, m + 1):
-        mad = step(B | {x})
-        if mad == 0:  # no pair
-            B.add(x)
-        else:  # something from B is paired with x
+    prefix = {0}
+    for x in range(1, m):
+        mad = step(prefix | {x})
+        if mad == 0: # no pair
+            prefix.add(x)
+        else: # something from prefix is paired with x
             ans[x] = mad
-            # need to find exact pair via binary search
-            B_copy = list(B)
-            while len(B_copy) > 1:
-                mid = len(B_copy) // 2
-                q = B_copy[:mid] + [x]
-                if len(q) == 2: # already answered
-                    break
-                if step(q) == mad:
-                    B_copy = B_copy[:mid]
-                else:
-                    B_copy = B_copy[mid:]
-            ans[B_copy[0]] = mad
-            B.discard(B_copy[0])
 
-    answer(ans[1:])
+    suffix = {2 * n - 1}
+    for x in range(2 * n - 2, -1, -1):
+        if ans[x] != 0: # half is already answered, skip
+            suffix.add(x)
+        else:
+            mad = step(suffix | {x})
+            if mad == 0: # no pair
+                suffix.add(x)
+            else: # something from suffix is paired with x
+                ans[x] = mad
+
+    answer(ans)
 
 
 def main():

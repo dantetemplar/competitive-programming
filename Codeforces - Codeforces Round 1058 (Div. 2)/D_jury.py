@@ -142,7 +142,7 @@ def run_interactive_test():
     print("Failed test cases:")
     for i, (result, jury) in enumerate(zip(results, test_cases), 1):
         pass_queries = jury.queries <= jury.max_queries
-        if not results or not pass_queries:
+        if not result or not pass_queries:
             print(f"\033[91mTest case {i}:")
             print(f"Test case {i} answer is correct: {'✅' if result else '❌'}")
             print(
